@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>to do list</title>
+	<META name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no'>
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<header class='g-head'>
+	</header>
+	<section class='g-main'>
+		<header class='m-main'>
+			<form id='form' action='javascript:postInfo()'>
+				<h1>todos</h1>
+				<input type='text' placeholder='what needs to be done?' id='info' autocomplete="off">
+			</form>
+		</header>
+		<section class='m-main'>
+			<h2 class='clearfix'>Active
+				<span class='count' id='acount'></span>
+			</h2>
+			<ul id='todolist' class='list'>
+			</ul>
+			<h2 class='clearfix'>Completed
+				<span class='count' id='compount'></span>
+			</h2>
+			<ul id='complist' class='list'>
+			</ul>
+		</section>
+	</section>
+	<footer>版权所有&nbsp;&copy;</footer>
+	<script type="text/javascript" src='js/style.js'></script>
+</body>
+</html>
